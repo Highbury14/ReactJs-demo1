@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './Components/ExpenseItem';
+import Game from './Components/TicTacToe';
 
 function App() {
   return (
     <div className="App">
+      <ExpenseItem></ExpenseItem>
+      <Game/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
