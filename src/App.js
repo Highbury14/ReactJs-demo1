@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import ExpenseItem from './Components/ExpenseItem';
+import LeagueTable from './Components/LeagueTable';
 import Game from './Components/TicTacToe';
 
-function App() {
+let App = () => {
   return (
     <div className="App">
-      <ExpenseItem></ExpenseItem>
+      <LeagueTable></LeagueTable>
       <Game/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
