@@ -1,5 +1,6 @@
 import Card from './UI/Card';
 import ExpenseItem from './ExpenseItem';
+import ExpensesData from './ExpensesData';
 
 let Expenses = () => {
   return (
