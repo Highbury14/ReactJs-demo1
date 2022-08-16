@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import LeagueTable from './Components/LeagueTable';
 import Game from './Components/TicTacToe';
+import ExpenseTracker from './Components/ExpenseTracker';
 
 let App = () => {
   return (
     <div className="App">
+      <ExpenseTracker></ExpenseTracker>
       <LeagueTable></LeagueTable>
       <Game/>
       <header className="App-header">
