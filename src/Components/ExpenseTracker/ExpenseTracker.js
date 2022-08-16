@@ -1,4 +1,4 @@
-import Card from '../UI/Card';
+import Card from './UI/Card';
 import Expenses from './Expenses';
 import 'bootstrap/dist/css/bootstrap.css';
 

@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './LeagueTable.css';
-import footballdata from '../LeagueData';
+import footballdata from './LeagueData';
 import TeamLogo from './TeamLogo';
 import MatchResult from './MatchResult';
 

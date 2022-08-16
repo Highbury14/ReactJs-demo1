@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import LeagueTable from './Components/LeagueTable';
+import LeagueTable from './Components/FootballLeague/LeagueTable';
 import Game from './Components/TicTacToe';
-import ExpenseTracker from './Components/ExpenseTracker';
+import ExpenseTracker from './Components/ExpenseTracker/ExpenseTracker';
 
 let App = () => {
   return (
